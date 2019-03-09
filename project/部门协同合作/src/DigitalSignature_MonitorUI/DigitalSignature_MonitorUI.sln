@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalSignature_MonitorUI", "DigitalSignature_MonitorUI\DigitalSignature_MonitorUI.csproj", "{724B43E4-6E90-4BF2-9A99-C04B039804F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{724B43E4-6E90-4BF2-9A99-C04B039804F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{724B43E4-6E90-4BF2-9A99-C04B039804F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{724B43E4-6E90-4BF2-9A99-C04B039804F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{724B43E4-6E90-4BF2-9A99-C04B039804F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {660BD9BE-D329-4245-9428-E88159BFA870}
+	EndGlobalSection
+EndGlobal

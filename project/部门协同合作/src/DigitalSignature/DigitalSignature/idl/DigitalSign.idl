@@ -1,0 +1,28 @@
+
+
+module DigitalSignData
+{
+	struct Digest
+	{
+		unsigned long long  high;
+		unsigned long long  low;
+	};
+	
+	struct Signature
+	{
+		unsigned long long  value[4];
+	};
+	
+	struct Msg
+	{
+		long                sendID;				// 发送方 ID
+		long                receiveID;			// 接收方 ID
+		string              message;			// 消息
+		Digest              digest;				// 摘要
+		Signature           sign;				// 签名
+		boolean             d_invaild;			// 摘要合法标记
+		boolean             s_invaild;			// 签名合法标记
+	};
+	#pragma keylist Msg sendID
+};
+

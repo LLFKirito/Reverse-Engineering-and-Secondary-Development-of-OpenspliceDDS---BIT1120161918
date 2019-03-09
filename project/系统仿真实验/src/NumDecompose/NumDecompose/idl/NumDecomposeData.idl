@@ -1,0 +1,23 @@
+
+
+module NumDecomposeData
+{
+	struct NumDec {
+		unsigned long long  large_num;          // 待分解大数 
+		unsigned long long  factor[2];          // 分解成的2个因数 
+		boolean             valid_data;         // 数据有效标志 
+		boolean             exception_flag;     // 数据异常标志 
+	};
+
+	/* 数据收发消息结构 */
+	struct NumSent
+	{
+		unsigned long long  addressesID;        // 收信人ID 
+		unsigned long long  senderID;           // 发信人ID 
+		long                mode;               // 消息模式(数据信息:0/其他消息:1)
+		NumDec			    num[50];            // 计算数据 
+		string              message;            // 其他消息或异常信息 
+	};
+	#pragma keylist NumSent addressesID
+};
+

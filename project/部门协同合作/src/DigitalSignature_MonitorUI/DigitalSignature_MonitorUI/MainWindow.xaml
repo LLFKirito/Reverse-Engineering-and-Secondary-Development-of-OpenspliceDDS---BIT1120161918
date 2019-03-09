@@ -1,0 +1,13 @@
+﻿<Window x:Class="DigitalSignature_MonitorUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DigitalSignature_MonitorUI"
+        mc:Ignorable="d"
+        Title="Monitor" Height="600" Width="900">
+    <Grid>
+        <Image Source="/DigitalSignature_MonitorUI;component/Resources/bg.jpg" Stretch="Fill" Margin="0,0,-0.151,0.16" Grid.RowSpan="2"/>
+        <TextBox x:Name="___TextBox_Out" HorizontalAlignment="Left" Height="375" TextWrapping="Wrap" VerticalAlignment="Top" Width="740" Margin="80,133,0,0" Opacity="0.65" Grid.RowSpan="2" FontSize="16" FontFamily="Microsoft PhagsPa" FontWeight="Bold" VerticalScrollBarVisibility="Visible" ScrollViewer.CanContentScroll="True" AutomationProperties.IsOffscreenBehavior="Onscreen"/>
+    </Grid>
+</Window>

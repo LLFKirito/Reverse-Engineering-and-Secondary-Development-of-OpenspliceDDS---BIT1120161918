@@ -1,0 +1,24 @@
+﻿<Window x:Class="NumDecompose_MonitorUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NumDecompose_MonitorUI"
+        mc:Ignorable="d"
+        Title="Monitor" Height="600" Width="900">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="213*"/>
+            <RowDefinition Height="358*"/>
+        </Grid.RowDefinitions>
+        <Image Source="/NumDecompose_MonitorUI;component/Resources/bg.jpg" Stretch="Fill" Margin="0,0,-0.151,0.159" Grid.RowSpan="2"/>
+        <Label Content="联机结点数目" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="110,136,0,0" FontSize="16" FontFamily="Microsoft PhagsPa" FontWeight="Bold" Width="134"/>
+        <Label Content="已处理数据量" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="110,176,0,0" FontSize="16" FontFamily="Microsoft PhagsPa" FontWeight="Bold" Width="121"/>
+        <Label Content="结点详细信息" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="110,10.025,0,0" FontSize="16" FontFamily="Microsoft PhagsPa" FontWeight="Bold" Width="121" Grid.Row="1"/>
+
+        <TextBox x:Name="___TextBox_NodeNum_Out" HorizontalAlignment="Left" Height="31" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="134" Margin="260,136,0,0" FontSize="16" FontFamily="Microsoft PhagsPa" TextDecorations="{x:Null}" FontWeight="Bold" BorderBrush="#FFABADB3" Background="White" Opacity="0.85"/>
+        <TextBox x:Name="___TextBox_SendSize_Out" HorizontalAlignment="Left" Height="31" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="134" Margin="260,176,0,0" FontSize="16" FontFamily="Microsoft PhagsPa" TextDecorations="{x:Null}" FontWeight="Bold" BorderBrush="#FFABADB3" Background="White" Opacity="0.85"/>
+        <TextBox x:Name="___TextBox_NodeInformation_Out" HorizontalAlignment="Left" Height="252" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="680" Margin="110,45.025,0,0" TextChanged="TextBox_TextChanged" FontSize="16" FontFamily="NSimSun" TextDecorations="{x:Null}" FontWeight="Bold" BorderBrush="#FFABADB3" Background="White" Opacity="0.85" Grid.Row="1" ScrollViewer.CanContentScroll="True" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Visible"/>
+
+    </Grid>
+</Window>

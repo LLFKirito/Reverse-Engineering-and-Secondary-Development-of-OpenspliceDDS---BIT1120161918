@@ -1,0 +1,96 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DigitalSignature_A_Message", "DigitalSignature\cpp\standalone\DigitalSignature_A_Message.vcxproj", "{93D6C847-B427-41B4-B713-8A106E989AD6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8F824998-F9D7-4DEF-A2AF-0AB3D490CE1C} = {8F824998-F9D7-4DEF-A2AF-0AB3D490CE1C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DigitalSignature_B_Digest", "DigitalSignature\cpp\standalone\DigitalSignature_B_Digest.vcxproj", "{B537AE5C-368B-459D-B909-CC13DD2032F4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8F824998-F9D7-4DEF-A2AF-0AB3D490CE1C} = {8F824998-F9D7-4DEF-A2AF-0AB3D490CE1C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DigitalSignature_C_Signature", "DigitalSignature\cpp\standalone\DigitalSignature_C_Signature.vcxproj", "{84A339AD-3E25-4494-9DE1-9CF2CA4A717C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8F824998-F9D7-4DEF-A2AF-0AB3D490CE1C} = {8F824998-F9D7-4DEF-A2AF-0AB3D490CE1C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DigitalSignature_D_Inspection", "DigitalSignature\cpp\standalone\DigitalSignature_D_Inspection.vcxproj", "{BCB54CFF-6336-4CE3-97D6-74E148F2C944}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8F824998-F9D7-4DEF-A2AF-0AB3D490CE1C} = {8F824998-F9D7-4DEF-A2AF-0AB3D490CE1C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DigitalSignature_Monitor", "DigitalSignature\cpp\standalone\DigitalSignature_Monitor.vcxproj", "{C0BAC7EE-7E8D-4935-B55F-DC7DF8A71ABB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8F824998-F9D7-4DEF-A2AF-0AB3D490CE1C} = {8F824998-F9D7-4DEF-A2AF-0AB3D490CE1C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DigitalSignature_Types", "DigitalSignature\cpp\standalone\DigitalSignature_Types.vcxproj", "{8F824998-F9D7-4DEF-A2AF-0AB3D490CE1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93D6C847-B427-41B4-B713-8A106E989AD6}.Debug|x64.ActiveCfg = Debug|x64
+		{93D6C847-B427-41B4-B713-8A106E989AD6}.Debug|x64.Build.0 = Debug|x64
+		{93D6C847-B427-41B4-B713-8A106E989AD6}.Debug|x86.ActiveCfg = Debug|Win32
+		{93D6C847-B427-41B4-B713-8A106E989AD6}.Debug|x86.Build.0 = Debug|Win32
+		{93D6C847-B427-41B4-B713-8A106E989AD6}.Release|x64.ActiveCfg = Release|x64
+		{93D6C847-B427-41B4-B713-8A106E989AD6}.Release|x64.Build.0 = Release|x64
+		{93D6C847-B427-41B4-B713-8A106E989AD6}.Release|x86.ActiveCfg = Release|Win32
+		{93D6C847-B427-41B4-B713-8A106E989AD6}.Release|x86.Build.0 = Release|Win32
+		{B537AE5C-368B-459D-B909-CC13DD2032F4}.Debug|x64.ActiveCfg = Debug|x64
+		{B537AE5C-368B-459D-B909-CC13DD2032F4}.Debug|x64.Build.0 = Debug|x64
+		{B537AE5C-368B-459D-B909-CC13DD2032F4}.Debug|x86.ActiveCfg = Debug|Win32
+		{B537AE5C-368B-459D-B909-CC13DD2032F4}.Debug|x86.Build.0 = Debug|Win32
+		{B537AE5C-368B-459D-B909-CC13DD2032F4}.Release|x64.ActiveCfg = Release|x64
+		{B537AE5C-368B-459D-B909-CC13DD2032F4}.Release|x64.Build.0 = Release|x64
+		{B537AE5C-368B-459D-B909-CC13DD2032F4}.Release|x86.ActiveCfg = Release|Win32
+		{B537AE5C-368B-459D-B909-CC13DD2032F4}.Release|x86.Build.0 = Release|Win32
+		{84A339AD-3E25-4494-9DE1-9CF2CA4A717C}.Debug|x64.ActiveCfg = Debug|x64
+		{84A339AD-3E25-4494-9DE1-9CF2CA4A717C}.Debug|x64.Build.0 = Debug|x64
+		{84A339AD-3E25-4494-9DE1-9CF2CA4A717C}.Debug|x86.ActiveCfg = Debug|Win32
+		{84A339AD-3E25-4494-9DE1-9CF2CA4A717C}.Debug|x86.Build.0 = Debug|Win32
+		{84A339AD-3E25-4494-9DE1-9CF2CA4A717C}.Release|x64.ActiveCfg = Release|x64
+		{84A339AD-3E25-4494-9DE1-9CF2CA4A717C}.Release|x64.Build.0 = Release|x64
+		{84A339AD-3E25-4494-9DE1-9CF2CA4A717C}.Release|x86.ActiveCfg = Release|Win32
+		{84A339AD-3E25-4494-9DE1-9CF2CA4A717C}.Release|x86.Build.0 = Release|Win32
+		{BCB54CFF-6336-4CE3-97D6-74E148F2C944}.Debug|x64.ActiveCfg = Debug|x64
+		{BCB54CFF-6336-4CE3-97D6-74E148F2C944}.Debug|x64.Build.0 = Debug|x64
+		{BCB54CFF-6336-4CE3-97D6-74E148F2C944}.Debug|x86.ActiveCfg = Debug|Win32
+		{BCB54CFF-6336-4CE3-97D6-74E148F2C944}.Debug|x86.Build.0 = Debug|Win32
+		{BCB54CFF-6336-4CE3-97D6-74E148F2C944}.Release|x64.ActiveCfg = Release|x64
+		{BCB54CFF-6336-4CE3-97D6-74E148F2C944}.Release|x64.Build.0 = Release|x64
+		{BCB54CFF-6336-4CE3-97D6-74E148F2C944}.Release|x86.ActiveCfg = Release|Win32
+		{BCB54CFF-6336-4CE3-97D6-74E148F2C944}.Release|x86.Build.0 = Release|Win32
+		{C0BAC7EE-7E8D-4935-B55F-DC7DF8A71ABB}.Debug|x64.ActiveCfg = Debug|x64
+		{C0BAC7EE-7E8D-4935-B55F-DC7DF8A71ABB}.Debug|x64.Build.0 = Debug|x64
+		{C0BAC7EE-7E8D-4935-B55F-DC7DF8A71ABB}.Debug|x86.ActiveCfg = Debug|Win32
+		{C0BAC7EE-7E8D-4935-B55F-DC7DF8A71ABB}.Debug|x86.Build.0 = Debug|Win32
+		{C0BAC7EE-7E8D-4935-B55F-DC7DF8A71ABB}.Release|x64.ActiveCfg = Release|x64
+		{C0BAC7EE-7E8D-4935-B55F-DC7DF8A71ABB}.Release|x64.Build.0 = Release|x64
+		{C0BAC7EE-7E8D-4935-B55F-DC7DF8A71ABB}.Release|x86.ActiveCfg = Release|Win32
+		{C0BAC7EE-7E8D-4935-B55F-DC7DF8A71ABB}.Release|x86.Build.0 = Release|Win32
+		{8F824998-F9D7-4DEF-A2AF-0AB3D490CE1C}.Debug|x64.ActiveCfg = Debug|x64
+		{8F824998-F9D7-4DEF-A2AF-0AB3D490CE1C}.Debug|x64.Build.0 = Debug|x64
+		{8F824998-F9D7-4DEF-A2AF-0AB3D490CE1C}.Debug|x86.ActiveCfg = Debug|Win32
+		{8F824998-F9D7-4DEF-A2AF-0AB3D490CE1C}.Debug|x86.Build.0 = Debug|Win32
+		{8F824998-F9D7-4DEF-A2AF-0AB3D490CE1C}.Release|x64.ActiveCfg = Release|x64
+		{8F824998-F9D7-4DEF-A2AF-0AB3D490CE1C}.Release|x64.Build.0 = Release|x64
+		{8F824998-F9D7-4DEF-A2AF-0AB3D490CE1C}.Release|x86.ActiveCfg = Release|Win32
+		{8F824998-F9D7-4DEF-A2AF-0AB3D490CE1C}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BFBFBD0-2472-4D6A-9DAD-0916298A753D}
+	EndGlobalSection
+EndGlobal
